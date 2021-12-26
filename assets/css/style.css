@@ -1388,8 +1388,10 @@ color: var(--white);
     background: url(../images/tournment/events-bg-1.png) no-repeat center;
     background-size: cover;
     display: flex;
+    flex-wrap: wrap;
     margin-bottom: 30px;
     padding: 45px 50px;
+    justify-content: center;
     
 }
 .tournament-bg .tournament-logo {
@@ -1410,16 +1412,47 @@ color: var(--white);
     display: inline-block;
     color: var(--white);
     background-color: var(--theme-color);
-    padding: 10px 30px;
+    width: 100px;
+    height: 50px;
     border-radius: 30px;
     text-transform: uppercase;
-    transition: all ease-in .3s;
+    transition: all linear .4s;
     font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
     
 }
 .tournament-bg .tournament-details .tournament-join:hover{
-    background-color: var(--white);
+background-color: var(--white);
+color: var(--theme-color);
+}
+.tournament-bg .tournament-details .tournament-join a{
+    color: var(--white);
+    transition: all linear .4s;
+}
+.tournament-bg .tournament-details .open{
+    position: absolute;
+    opacity: 0;
+
+}
+.tournament-bg .tournament-details .close{
+   position: absolute;
+   opacity: 0;
+
+}
+.tournament-bg .tournament-details .tournament-join:hover .join{
     color: var(--theme-color);
+    opacity: 0;
+}
+.tournament-bg .tournament-details .tournament-join:hover .open{
+    color: var(--theme-color);
+    opacity: 1;
+}
+.tournament-bg .tournament-details .tournament-join:hover .close{
+    color: var(--theme-color);
+    opacity: 1;
 }
 .tournament-bg .tournament-details h3{
     color: var(--white);
