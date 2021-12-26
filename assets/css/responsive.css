@@ -144,6 +144,21 @@
     }
 
     /*    footer end */
+
+    .about-banner .about-bg {
+
+        padding-top: 250px;
+        padding-bottom: 50px;
+ 
+    }
+    .about-banner .about-bg .overlay .about-heading h1 {
+        font-size: 30px;
+        top: 46%;
+    }
+    .about-banner .about-bg .overlay .about-heading h2 {
+        font-size: 4.5rem;
+
+    }
 }
 
 @media (max-width: 992.98px) {
