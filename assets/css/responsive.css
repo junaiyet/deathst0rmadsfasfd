@@ -1,0 +1,253 @@
+@media (max-width: 767.98px) {
+    section {
+        overflow-x: hidden;
+    }
+    .heading {
+        font-size: 50px;
+  
+    }
+    .table>:not(caption)>*>* {
+        padding: 0.7rem 0.05rem !important;
+        font-size: 16px !important;
+        text-align: center !important;
+    }
+    .team  .team-details .table{
+        margin-top: 30px;
+    }
+    /* common-start */
+    .section-pt {
+        padding-top: 40px;
+    }
+
+    .section-pb {
+        padding-bottom: 40px;
+    }
+
+    .title h2 {
+        font-size: 36px;
+        letter-spacing: 0;
+    }
+
+    .title span {
+        font-size: 12px;
+    }
+
+    .text-skewX span {
+        padding: 8px 14px;
+        transform: skewX(-30deg);
+    }
+
+    .btn-group span {
+        font-size: 14px;
+
+    }
+
+    .btn-group .cta {
+        padding: 15px 10px;
+    }
+    .imges .round {
+        width: 70px;
+        height: 70px;
+        line-height: 70px;
+    }
+
+   .imges .round i {
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        margin-top: 5px;
+
+    }
+
+    /* common-end */
+    /* header-start */
+    .fixd-menu-change .navigation{
+        height: auto;
+    }
+    .navbar {
+ 
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    header {
+        top: 0;
+    }
+
+    header .header-top {
+        display: none;
+    }
+
+    header .navigation .navbar-nav {
+        padding-bottom: 40px;
+    }
+
+    header .navigation .navbar-nav li {
+        margin: 0 60px !important;
+    }
+
+    /* header-end */
+    /* hero-area-start */
+    .hero-area .hero-bg .details h2 {
+        padding: 15px 30px;
+        font-size: 16px;
+        color: var(--white);
+        margin-bottom: 20px;
+
+    }
+
+    .hero-area .hero-bg {
+        padding: 200px 0;
+    }
+
+    .hero-area .hero-bg .details h1 {
+        font-size: 48px;
+        padding-bottom: 20px;
+    }
+
+    /* hero-area-end */
+
+    /* match start */
+    .match .match-area .match-item .dt {
+        top: -10px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .match .match-area .match-item {
+        padding: 20px;
+    }
+    .match .match-item img {
+        width: 30% !important;
+    }
+
+    /* match end */
+    /* contact start */
+    .contact .form-area {
+        padding: 20px;
+    }
+
+    /* contact end */
+    /*    footer start */
+    footer .gooter-bg {
+        background: none;
+        padding-top: 40px;
+        padding-bottom: 70px;
+        color: var(--white);
+    }
+
+    footer .gooter-bg .footer-hadding {
+        padding-top: 30px;
+    }
+
+    footer .gooter-bg .pages-link li a {
+        font-size: 14px;
+    }
+
+    /*    footer end */
+}
+
+@media (max-width: 992.98px) {
+
+    .table>:not(caption)>*>* {
+        padding: .5rem .0;
+      font-size: 13px;
+    }
+    /* header-start */
+
+    header .navigation .navbar-nav {
+        padding-bottom: 40px;
+    }
+
+    header .navigation .navbar-nav li {
+        margin: 0 230px;
+    }
+
+    /* header-end */
+
+
+
+}
+
+@media (max-width: 1199.98px) {
+
+    /* common css */
+    .section-pt {
+        padding-top: 80px;
+    }
+
+    .section-pb {
+        padding-bottom: 80px;
+    }
+
+    .prev-arrow {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+    }
+
+    .next-arrow {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+    }
+    .imges .round {
+        width: 80px;
+        height: 80px;
+        line-height: 80px;
+    }
+
+    .imges .round i {
+        width: 70px;
+        height: 70px;
+        line-height: 70px;
+        margin-top: 5px;
+
+    }
+    /* common css */
+    /* hero-bottom start */
+    .hero-bottom .prev-arrow {
+
+        left: -2%;
+    }
+
+    .hero-bottom .next-arrow {
+        right: -2%;
+    }
+
+
+
+    /* hero-bottom start */
+    /* match start */
+
+    .match .match-item img {
+        width: 100%;
+    }
+
+    .match .match-area .match-item h3 {
+        font-size: 18px;
+
+    }
+
+    .match .match-area .match-item .point {
+        font-size: 18px;
+        margin-top: 35px;
+    }
+
+    .match .match-area .match-item .dt {
+        top: 18px;
+    }
+
+    /* match start */
+    /* footer start */
+    footer .gooter-bg {
+        padding: 60px 0;
+    }
+
+    footer .gooter-bg .socal-icon li {
+        width: 50px;
+        height: 40px;
+        line-height: 40px;
+    }
+
+    /* footer start */
+}
