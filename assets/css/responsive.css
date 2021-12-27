@@ -159,6 +159,20 @@
         font-size: 4.5rem;
 
     }
+    .tournament-bg {
+        padding: 20px 20px;
+     
+    }
+    .tournament-bg .tournament-logo {
+        margin-right: 10px !important;
+        padding-bottom: 30px;
+    }
+    .tournament-bg .tournament-details .tournament-join {
+        right: -15px;
+        width: 90px;
+        height: 40px;
+        font-size: 14px;
+    }
 }
 
 @media (max-width: 992.98px) {
@@ -178,7 +192,13 @@
     }
 
     /* header-end */
+    .tournament-bg {
 
+        padding: 30px 30px;
+    }
+    .tournament-bg .tournament-logo {
+        margin-right: 100px;
+    }
 
 
 }
