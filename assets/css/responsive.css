@@ -14,6 +14,14 @@
     .team  .team-details .table{
         margin-top: 30px;
     }
+    /* header{
+        background-color: var(--light-dark-color);
+        height: 100px;
+    } */
+    .navigation ul{
+        background-color: var(--light-dark-color);
+        /* height: 100px;  */
+    }
     /* common-start */
     .section-pt {
         padding-top: 40px;
@@ -190,7 +198,14 @@
     header .navigation .navbar-nav li {
         margin: 0 230px;
     }
+    .navigation ul{
+        background-color: var(--light-dark-color);
+        /* height: 100px;  */
+    }
+    header .navigation .navbar-nav .nav-item {
 
+        margin: 0 auto;
+    }
     /* header-end */
     .tournament-bg {
 

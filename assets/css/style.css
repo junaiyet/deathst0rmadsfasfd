@@ -1435,20 +1435,24 @@ color: var(--theme-color);
 .tournament-bg .tournament-details .open{
     position: absolute;
     opacity: 0;
+    visibility: hidden;
 
 }
 .tournament-bg .tournament-details .close{
    position: absolute;
    opacity: 0;
+   visibility: hidden;
 
 }
 .tournament-bg .tournament-details .tournament-join:hover .join{
     color: var(--theme-color);
     opacity: 0;
+    visibility: visible;
 }
 .tournament-bg .tournament-details .tournament-join:hover .open{
     color: var(--theme-color);
     opacity: 1;
+    visibility: visible;
 }
 .tournament-bg .tournament-details .tournament-join:hover .close{
     color: var(--theme-color);
